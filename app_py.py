@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1w8zXYlhh5f2_0qx_urjd9ZhF3WcBZCLb
 """
 
-from google.colab import files
-uploaded = files.upload()
-
 import pandas as pd
 
 df = pd.read_csv("diabetes_clean.csv")
