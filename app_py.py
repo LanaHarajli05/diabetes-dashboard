@@ -15,7 +15,6 @@ import pandas as pd
 df = pd.read_csv("diabetes_clean.csv")
 df.head()
 
-!pip install streamlit
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
